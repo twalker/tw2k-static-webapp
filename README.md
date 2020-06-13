@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# tw2k-static-webapp
+
+https://azure.microsoft.com/en-us/services/app-service/static/
+https://docs.microsoft.com/en-us/azure/static-web-apps/add-api
+
+endpoint:
+https://nice-smoke-0a3336a1e.azurestaticapps.net
+
+----
+
+This project was bootstrapped with [Create React App](https://github.com/ facebook/create-react-app).
 
 ## Available Scripts
 
