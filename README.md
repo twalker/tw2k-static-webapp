@@ -1,78 +1,89 @@
-# tw2k-static-webapp
+---
+page_type: sample
+languages:
+  - javascript
+  - typescript
+products:
+  - azure functions
+description: 'Apps that can be used with as a starting point for some MS Learn Modules.'
+urlFragment: 'https://github.com/MicrosoftDocs/mslearn-staticwebapp'
+---
 
-https://azure.microsoft.com/en-us/services/app-service/static/
-https://docs.microsoft.com/en-us/azure/static-web-apps/add-api
+# Official Microsoft Sample
 
-endpoint:
-https://nice-smoke-0a3336a1e.azurestaticapps.net
+Follow the hands-on tutorial to [publish an Angular, React, Svelte, or Vue JavaScript app and API with Azure Static Web Apps](https://docs.microsoft.com/learn/modules/publish-app-service-static-web-app-api/?WT.mc_id=mslearn_staticwebapp-github-jopapa).
 
-----
+## Static Web App
 
-This project was bootstrapped with [Create React App](https://github.com/ facebook/create-react-app).
+This repository contains apps that can be used with as a starting point for some MS Learn Modules. because everyone has their own preference for their JavaScript frameworks/library, you can choose which one you prefer.
 
-## Available Scripts
+The shopping theme is used throughout the app.
 
-In the project directory, you can run:
+## Contents
 
-### `yarn start`
+The apps written in the following JavaScript frameworks/libraries:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| folder          | Description                                                                                                 |
+| --------------- | ----------------------------------------------------------------------------------------------------------- |
+| **angular-app** | [Sample Angular app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/blob/master/angular-app)         |
+| **api-starter** | [Sample Azure Functions app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/blob/master/api-starter) |
+| **react-app**   | [Sample React app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/blob/master/react-app)             |
+| **svelte-app**  | [Sample Svelte app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/blob/master/svelte-app)           |
+| **vue-app**     | [Sample Vue app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/blob/master/vue-app)                 |
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Prerequisites
 
-### `yarn test`
+- A GitHub account
+- [Node.js and Git](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=mslearn_staticwebapp-github-jopapa) installed
+- The [Azure Functions extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions?WT.mc_id=mslearn_staticwebapp-github-jopapa) installed
+- The [Azure Functions Core Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=mslearn_staticwebapp-github-jopapa) installed
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problems or Suggestions
 
-### `yarn build`
+[Open an issue here](https://github.com/MicrosoftDocs/mslearn-staticwebapp/issues)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Resources
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Azure Static Web Apps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Learn how to [Publish an Angular, React, Svelte, or Vue JavaScript app and API with Azure Static Web Apps](https://docs.microsoft.com/learn/modules/publish-app-service-static-web-app-api?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [API support in Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/apis?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Add an API to Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/add-api?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Authentication and authorization](https://docs.microsoft.com/azure/static-web-apps/authentication-authorization?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Routes](https://docs.microsoft.com/azure/static-web-apps/routes?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Review pre-production environments](https://docs.microsoft.com/azure/static-web-apps/review-publish-pull-requests?wt.mc_id=mslearn_staticwebapp-github-jopapa)
 
-### `yarn eject`
+### Azure Functions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Learn how to [Refactor Node.js and Express APIs to Serverless APIs with Azure Functions](https://docs.microsoft.com/learn/modules/shift-nodejs-express-apis-serverless/?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- Learn about the Azure Functions [local.settings.json](https://docs.microsoft.com/azure/azure-functions/functions-run-local#local-settings-file?wt.mc_id=mslearn_staticwebapp-github-jopapa) file
+- Learn how to [Deploy to Azure Using Azure Functions](https://code.visualstudio.com/tutorials/functions-extension/getting-started?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- Sign up for a [Free Trial of Azure](https://azure.microsoft.com/free/?wt.mc_id=mslearn_staticwebapp-github-jopapa)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Visual Studio Code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Azure Free Trial](https://azure.microsoft.com/free/?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [VS Code](https://code.visualstudio.com?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [VS Code Extension for Node on Azure](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack&WT.mc_id=mslearn_staticwebapp-github-jopapa)
+- Azure Functions [local.settings.json](https://docs.microsoft.com/azure/azure-functions/functions-run-local#local-settings-file?WT.mc_id=mslearn_staticwebapp-github-jopapa) file
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Debugging Resources
 
-## Learn More
+- [Debugging Angular in VS Code](https://code.visualstudio.com/docs/nodejs/angular-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Debugging React in VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Debugging Vue in VS Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-### Code Splitting
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
